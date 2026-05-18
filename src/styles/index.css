@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+/* LTR Support */
+html[dir="ltr"] * {
+  direction: ltr;
+}
+
+/* RTL Support for Arabic */
+html[dir="rtl"] * {
+  direction: rtl;
+}
+
+body {
+  font-family: 'Poppins', 'Cairo', sans-serif;
+  background-color: #ffffff;
+}
